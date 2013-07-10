@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%= current_page.data.title %></title>
+  <%= stylesheet_link_tag "application" %>
+</head>
+<body>
+<%= yield %>
+<%= javascript_include_tag  "application" %>
+</body>
+</html>
