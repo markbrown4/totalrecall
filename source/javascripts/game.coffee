@@ -111,3 +111,7 @@
         $('#message')[0].innerHTML = data.message
         $('body')[0].classList.add 'game-over'
 
+        setTimeout ->
+          window.location.href = 'http://www.youtube.com/watch?v=KFkRkB568FA'
+        , 2000
+
