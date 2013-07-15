@@ -1,0 +1,10 @@
+<% for y in [0...@height] by 1: %>
+  <div class="row">
+    <% for x in [0...@width] by 1: %>
+      <div class="card unmatched" id="card-<%= x %>-<%= y %>">
+        <div class="front" id="card-<%= x %>-<%= y %>-front"></div>
+        <div class="back">?</div>
+      </div>
+    <% end %>
+  </div>
+<% end %>
